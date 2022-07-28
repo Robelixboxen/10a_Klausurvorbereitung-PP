@@ -6,20 +6,20 @@
 
 // // Wertzuweisung / Assignment
 // a = true; // boolean (true, false)
-// a = "Hallo"; // string
 // a = 2; // number
 
 // console.log(typeof a);
 // console.log(a);
 
-/* Arrays */
+
+/* Arrays */ // => wissen wie das geht!!!!!
 // Navigation über INDEX
 
 // let arr;
-// arr = new Array();
+// // arr = new Array();
 // arr = [true,false,false,true];
 
-// Index beginnt mit 0
+// // Index beginnt mit 0 
 // console.log(arr);
 // console.log(arr[0]);
 // console.log(arr[3]);
@@ -42,7 +42,7 @@
 /* Objekte */
 // Navigation über Bezeichner (keys)
 
-// let obj = {};
+// let obj = {};  // Wichtig!!!
 
 // obj = {x:10, y:"Hi"};
 
@@ -58,10 +58,10 @@
 //             }
 //     }
 
-
+// // deep, deeper, deeeepest PP12
 // console.log(obj);
 // console.log(obj.val0);
-// console.log(obj.sub1.val1);
+// console.log(obj.sub1.val1);  // sowas muss du können!
 // console.log(obj.sub1.val2);
 // {{{{{....}}}}} ... nested object
 
@@ -76,23 +76,23 @@
 // console.log(document.body.children[0]);
 // console.log(document.body.children[0].innerHTML);
 // document.body.children[0].innerText = "Hi";
-// console.log(document.getElementById("test"));
+// console.log(document.getElementById("test")); // => wissen muss!
 // document.getElementById("test").innerHTML = "Hallo Text!"
 
 /* ENTSCHEIDUNGSSTRUKTUREN | CONTROL FLOW*/
 
-// let cond; // ??
+/// let cond; // ??
 
 // cond = true;
 // cond = (6 > 4);
 // cond = (6 < 4);
-// cond = (4 == 4); // Test auf Wert
+// cond = (4 == 4); // Test auf Wert  => test auf gleichheit anschauen!
 // cond = (4 === "4"); // Test auf Wert UND Typ
 
 // if (cond) {
-//     console.log("Aussag wahr"); 
+//     console.log("Aussage wahr"); 
 // } else {
-//     console.log("Aussag falsch"); 
+//     console.log("Aussage falsch"); 
 // }
 
    // switch (key) {
@@ -109,17 +109,17 @@
 // 1. Kapselung
 // test();
 // function test() { // Fkt.-Rumpf | body
-//     console.log("Testausgabe"); 
+//     console.log("Testausgabe");  // => funktion schreiben, funktions rumpf, Call
 // }
 
-// 2. return
+// 2. return => geht zurück an den Ort von wo der Call gekommen ist
 //  console.log(test2());
 //  function test2() { // do something ...
 //     return "Testausgabe 2"; // Lieferung an die Stelle des calls
 //     console.log("Noch eine Ausgabe"); // nach return Abbruch!
 //  }
 
-// 3. Parameter 
+// 3. Parameter // => sollte keine Problem machen!
 //  console.log(test3("Robert")); // Argument(e)
 //  function test3(firstName) // Parameter
 //  { // do something ...
@@ -137,8 +137,9 @@
 //    // return "Hallo, ";
 //     return "Hola, ";
 // }
-
+// Übung Rechner ankucken!!! PP01
 // rechner();
+// PP06 02 nochmal anschauen
 
 
 
