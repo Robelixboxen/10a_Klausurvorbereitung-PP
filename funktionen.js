@@ -18,6 +18,7 @@
 // let arr;
 // // arr = new Array();
 // arr = [true,false,false,true];
+let arr = ["Hund", "Katze", "Maus", "Elefant"]  // Datentyp nicht vergessen!!!!!
 
 // // Index beginnt mit 0 
 // console.log(arr);
@@ -58,18 +59,19 @@
 //             }
 //     }
 
-// // deep, deeper, deeeepest PP12
-// console.log(obj);
-// console.log(obj.val0);
-// console.log(obj.sub1.val1);  // sowas muss du können!
-// console.log(obj.sub1.val2);
-// {{{{{....}}}}} ... nested object
+// deep, deeper, deeeepest PP12
+console.log(obj);
+console.log(obj.val0);
+console.log(obj.sub1.val1);  // sowas muss du können!
+console.log(obj.sub1.val2);
 
+{{{{{....}}}}} ... nested object
+/*
  /*DOM*/
-// DOM  --> Modell der HTMl-Struktur
-// DOM --> Document Object Model
-// DOM --> nach dem Parsen / Laden der HTML-Seite  
-
+DOM  --> Modell der HTMl-Struktur
+DOM --> Document Object Model
+DOM --> nach dem Parsen / Laden der HTML-Seite  
+/*********************************************************************/
 // console.log(document);
 // console.log(document.body);
 // console.log(document.body.children);
@@ -106,37 +108,37 @@
 
 /* FUNKTIONEN */
 
-// 1. Kapselung
-// test();
-// function test() { // Fkt.-Rumpf | body
-//     console.log("Testausgabe");  // => funktion schreiben, funktions rumpf, Call
-// }
+1. Kapselung
+test();
+function test() { // Fkt.-Rumpf | body
+    console.log("Testausgabe");  // => funktion schreiben, funktions rumpf, Call
+}
 
-// 2. return => geht zurück an den Ort von wo der Call gekommen ist
-//  console.log(test2());
-//  function test2() { // do something ...
-//     return "Testausgabe 2"; // Lieferung an die Stelle des calls
-//     console.log("Noch eine Ausgabe"); // nach return Abbruch!
-//  }
+2. return => geht zurück an den Ort von wo der Call gekommen ist
+ console.log(test2());
+ function test2() { // do something ...
+    return "Testausgabe 2"; // Lieferung an die Stelle des calls
+    console.log("Noch eine Ausgabe"); // nach return Abbruch!
+ }
 
-// 3. Parameter // => sollte keine Problem machen!
-//  console.log(test3("Robert")); // Argument(e)
-//  function test3(firstName) // Parameter
-//  { // do something ...
-//     return "Hallo, " + firstName; 
-// }
+3. Parameter // => sollte keine Problem machen!
+ console.log(test3("Robert")); // Argument(e)
+ function test3(firstName) // Parameter
+ { // do something ...
+    return "Hallo, " + firstName; 
+}
 
-// 4. Fkt-Call aus Funktionen
-// console.log(test4("Robert")); // Argument(e)
-// function test4(firstName) // Parameter
-// { 
-//    return grussformel() + firstName; 
-// }
+4. Fkt-Call aus Funktionen
+console.log(test4("Robert")); // Argument(e)
+function test4(firstName) // Parameter
+{ 
+   return grussformel() + firstName; 
+}
 
-// function grussformel() {
-//    // return "Hallo, ";
-//     return "Hola, ";
-// }
+function grussformel() {
+   // return "Hallo, ";
+    return "Hola, ";
+}
 // Übung Rechner ankucken!!! PP01
 // rechner();
 // PP06 02 nochmal anschauen
